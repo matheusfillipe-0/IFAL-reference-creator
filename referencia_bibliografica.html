@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <link rel="stylesheet" href="style_ref.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referência Bibliográfica</title>
+</head>
+
+<body>
+    <h2>Referência Bibliográfica</h2>
+
+    <form>
+        Nome do autor: <input type="text" id="innome"><br><br>
+        <input type="submit" value="Gerar Citação Bibliográfica">
+    </form>
+
+    <pre></pre>
+
+    <script>
+        const form = document.querySelector("form");
+        const exibir = document.querySelector("pre");
+
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+
+            const nome = form.innome.value.trim();
+
+            // Separa o nome completo em partes como um vetor
+            const partes = nome.split(' ');
+
+            if (partes.length < 2) {
+                exibir.textContent = "Por favor, insira um nome completo.";
+                return;
+            }
+
+            // O último nome (sobrenome)
+            const sobrenome = partes.pop().toUpperCase();
+
+            // As iniciais dos nomes restantes
+            const iniciais = partes.reduce((acc, p) => acc + p.charAt(0).toUpperCase() + '. ', '').trim();
+
+            exibir.textContent = `Citação Bibliográfica: ${sobrenome}, ${iniciais}`;
+        });
+    </script>
+</body>
+
+</html>
