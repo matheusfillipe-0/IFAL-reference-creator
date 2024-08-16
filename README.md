@@ -21,7 +21,7 @@ O projeto é composto por três arquivos principais:
 ## Exemplo de Uso
 
 - **Nome do autor:** João da Silva
-- **Citação Bibliográfica:** Silva, J. da
+- **Citação Bibliográfica:** Silva, J. D.
 
 ## Tecnologias Usadas
 
