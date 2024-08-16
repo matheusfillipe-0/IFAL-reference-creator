@@ -51,3 +51,7 @@ O projeto é composto por três arquivos principais:
         width: 200px;
         height: 200px;">
 </a>
+
+## Reduce
+
+ <img src="[https://i.postimg.cc/4yMpmyQZ/Pngtree-tech-style-click-start-button-5625458.png](https://postimg.cc/c6L5tSJF)" 
