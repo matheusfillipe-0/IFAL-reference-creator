@@ -39,6 +39,12 @@ O projeto é composto por três arquivos principais:
 
 4. **Exibe a Citação:** Formata e exibe a citação bibliográfica na área `<pre>`.
 
+   
+## Reduce
+
+![Descrição da Imagem](https://i.postimg.cc/WpGRKpcc/imagem-2024-08-16-023740468.png)
+
+
 
 **PRECIONE 'START' ABAIXO PARA ACESSAR :**
 
@@ -51,7 +57,3 @@ O projeto é composto por três arquivos principais:
         width: 200px;
         height: 200px;">
 </a>
-
-## Reduce
-
-![Descrição da Imagem](https://i.postimg.cc/WpGRKpcc/imagem-2024-08-16-023740468.png)
