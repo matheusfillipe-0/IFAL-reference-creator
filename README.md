@@ -54,4 +54,4 @@ O projeto é composto por três arquivos principais:
 
 ## Reduce
 
- <img src="[[https://i.postimg.cc/4yMpmyQZ/Pngtree-tech-style-click-start-button-5625458.png](https://postimg.cc/c6L5tSJF)](https://i.postimg.cc/WpGRKpcc/imagem-2024-08-16-023740468.png)" 
+![Descrição da Imagem](https://i.postimg.cc/WpGRKpcc/imagem-2024-08-16-023740468.png)
