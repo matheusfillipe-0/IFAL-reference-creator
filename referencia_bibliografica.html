@@ -38,7 +38,7 @@
             const sobrenome = partes.pop().toUpperCase();
 
             // As iniciais dos nomes restantes
-            const iniciais = partes.reduce((acc, p) => acc + p.charAt(0).toUpperCase() + '. ', '').trim();
+            const iniciais = partes.reduce((accumulador, valorAtual) => accumulador + valorAtual.charAt(0).toUpperCase() + '. ', '').trim();
 
             exibir.textContent = `Citação Bibliográfica: ${sobrenome}, ${iniciais}`;
         });
